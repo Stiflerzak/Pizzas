@@ -39,19 +39,13 @@ You can setup this repository by following this manual
    
    
 ## Application
-This application is a web API that allows users to:
-- Create new projects items.
-- Update individual project items.
-- View all projects items.
-- Filter project items by date.
-- Delete a project item.
-
 
 The following endpoints are ready for use:
 1. `/restaurants` - Presents all restaurant.
 2. `/restaurants/:id` - Presents a specific restaurant by its Id
 3. `/restaurants/:id`- This end point i used to delete
 4. `/restaurant_pizzas` - presents all shared attributes between restaurant and pizza
+5. `/pizzas` - Presents all pizzas
 
 
 
