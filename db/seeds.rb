@@ -14,7 +14,7 @@ r3= Restaurant.create(name: "Pizza Hut", address: "789 Oak St")
 
 # Create some restaurant pizza records
 
-r1.restaurant_pizzas.create(price: 30, pizza: p2)
-r2.restaurant_pizzas.create(price: 40, pizza: p4)
-r2.restaurant_pizzas.create(price: 50, pizza: p3)
-r3.restaurant_pizzas.create(price: 20, pizza: p1)
+r1.restaurant_pizzas.create(price: 12, pizza: p2)
+r2.restaurant_pizzas.create(price: 10, pizza: p4)
+r2.restaurant_pizzas.create(price: 24, pizza: p3)
+r3.restaurant_pizzas.create(price: 15, pizza: p1)
