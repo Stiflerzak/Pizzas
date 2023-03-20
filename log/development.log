@@ -311,3 +311,10 @@ Processing by PizzasController#index as HTML
 Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.9ms | Allocations: 7460)
 
 
+Started GET "/pizzas" for 127.0.0.1 at 2023-03-20 16:19:28 +0300
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.2ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  ↳ app/controllers/pizzas_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 5649)
+
+
