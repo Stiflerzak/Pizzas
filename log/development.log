@@ -139,3 +139,90 @@ FOREIGN KEY ("pizza_id")
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pizza Hut"], ["address", "789 Oak St"], ["created_at", "2023-03-20 12:30:34.173944"], ["updated_at", "2023-03-20 12:30:34.173944"]]
   [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Margherita"], ["ingredients", "tomato sauce, mozzarella, basil"], ["created_at", "2023-03-20 12:35:56.331791"], ["updated_at", "2023-03-20 12:35:56.331791"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pepperoni"], ["ingredients", "tomato sauce, mozzarella, pepperoni"], ["created_at", "2023-03-20 12:35:56.338688"], ["updated_at", "2023-03-20 12:35:56.338688"]]
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hawaiian"], ["ingredients", "tomato sauce, mozzarella, ham, pineapple"], ["created_at", "2023-03-20 12:35:56.345443"], ["updated_at", "2023-03-20 12:35:56.345443"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Meat Lover's"], ["ingredients", "tomato sauce, mozzarella, sausage, bacon, pepperoni"], ["created_at", "2023-03-20 12:35:56.351448"], ["updated_at", "2023-03-20 12:35:56.351448"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Veggie"], ["ingredients", "tomato sauce, mozzarella, bell peppers, onions, mushrooms"], ["created_at", "2023-03-20 12:35:56.357518"], ["updated_at", "2023-03-20 12:35:56.357518"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Joe's Pizza"], ["address", "123 Main St"], ["created_at", "2023-03-20 12:35:56.372660"], ["updated_at", "2023-03-20 12:35:56.372660"]]
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Papa John's"], ["address", "456 Elm St"], ["created_at", "2023-03-20 12:35:56.378645"], ["updated_at", "2023-03-20 12:35:56.378645"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pizza Hut"], ["address", "789 Oak St"], ["created_at", "2023-03-20 12:35:56.384330"], ["updated_at", "2023-03-20 12:35:56.384330"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Margherita"], ["ingredients", "tomato sauce, mozzarella, basil"], ["created_at", "2023-03-20 12:45:22.621857"], ["updated_at", "2023-03-20 12:45:22.621857"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pepperoni"], ["ingredients", "tomato sauce, mozzarella, pepperoni"], ["created_at", "2023-03-20 12:45:22.628311"], ["updated_at", "2023-03-20 12:45:22.628311"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hawaiian"], ["ingredients", "tomato sauce, mozzarella, ham, pineapple"], ["created_at", "2023-03-20 12:45:22.634593"], ["updated_at", "2023-03-20 12:45:22.634593"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Meat Lover's"], ["ingredients", "tomato sauce, mozzarella, sausage, bacon, pepperoni"], ["created_at", "2023-03-20 12:45:22.640659"], ["updated_at", "2023-03-20 12:45:22.640659"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Veggie"], ["ingredients", "tomato sauce, mozzarella, bell peppers, onions, mushrooms"], ["created_at", "2023-03-20 12:45:22.646387"], ["updated_at", "2023-03-20 12:45:22.646387"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Joe's Pizza"], ["address", "123 Main St"], ["created_at", "2023-03-20 12:45:22.661551"], ["updated_at", "2023-03-20 12:45:22.661551"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Papa John's"], ["address", "456 Elm St"], ["created_at", "2023-03-20 12:45:22.668213"], ["updated_at", "2023-03-20 12:45:22.668213"]]
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pizza Hut"], ["address", "789 Oak St"], ["created_at", "2023-03-20 12:45:22.674154"], ["updated_at", "2023-03-20 12:45:22.674154"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Margherita"], ["ingredients", "tomato sauce, mozzarella, basil"], ["created_at", "2023-03-20 12:49:57.746328"], ["updated_at", "2023-03-20 12:49:57.746328"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pepperoni"], ["ingredients", "tomato sauce, mozzarella, pepperoni"], ["created_at", "2023-03-20 12:49:57.752827"], ["updated_at", "2023-03-20 12:49:57.752827"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hawaiian"], ["ingredients", "tomato sauce, mozzarella, ham, pineapple"], ["created_at", "2023-03-20 12:49:57.758713"], ["updated_at", "2023-03-20 12:49:57.758713"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.1ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Meat Lover's"], ["ingredients", "tomato sauce, mozzarella, sausage, bacon, pepperoni"], ["created_at", "2023-03-20 12:49:57.764663"], ["updated_at", "2023-03-20 12:49:57.764663"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "ingredients", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Veggie"], ["ingredients", "tomato sauce, mozzarella, bell peppers, onions, mushrooms"], ["created_at", "2023-03-20 12:49:57.770424"], ["updated_at", "2023-03-20 12:49:57.770424"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Joe's Pizza"], ["address", "123 Main St"], ["created_at", "2023-03-20 12:49:57.785548"], ["updated_at", "2023-03-20 12:49:57.785548"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Papa John's"], ["address", "456 Elm St"], ["created_at", "2023-03-20 12:49:57.791598"], ["updated_at", "2023-03-20 12:49:57.791598"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pizza Hut"], ["address", "789 Oak St"], ["created_at", "2023-03-20 12:49:57.797822"], ["updated_at", "2023-03-20 12:49:57.797822"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurantPizza Create (0.3ms)[0m  [1m[32mINSERT INTO "restaurant_pizzas" ("restaurant_id", "pizza_id", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["restaurant_id", 10], ["pizza_id", 22], ["price", 30], ["created_at", "2023-03-20 12:49:57.828758"], ["updated_at", "2023-03-20 12:49:57.828758"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurantPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurant_pizzas" ("restaurant_id", "pizza_id", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["restaurant_id", 11], ["pizza_id", 24], ["price", 40], ["created_at", "2023-03-20 12:49:57.836042"], ["updated_at", "2023-03-20 12:49:57.836042"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurantPizza Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurant_pizzas" ("restaurant_id", "pizza_id", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["restaurant_id", 11], ["pizza_id", 23], ["price", 50], ["created_at", "2023-03-20 12:49:57.842220"], ["updated_at", "2023-03-20 12:49:57.842220"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurantPizza Create (0.3ms)[0m  [1m[32mINSERT INTO "restaurant_pizzas" ("restaurant_id", "pizza_id", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["restaurant_id", 12], ["pizza_id", 21], ["price", 20], ["created_at", "2023-03-20 12:49:57.848853"], ["updated_at", "2023-03-20 12:49:57.848853"]]
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
