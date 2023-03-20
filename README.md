@@ -31,11 +31,11 @@ You can setup this repository by following this manual
   
 3. Run the application
    
-         rake server
+         rails s
     
 4. Open the application from your browser
     
-   https://localhost:8000
+   https://localhost:3000
    
    
 ## Application
