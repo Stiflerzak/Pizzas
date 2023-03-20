@@ -1,9 +1,6 @@
 # Pizzas
-
-# project_management_app
-project_management_app is a basic API built with ruby's Sinatra DSL. 
-
-This project is my first project created for learning,  it shows the power of the DSL in building server-side applications.
+Pizzas is a basic API built with ruby on rails. 
+This is the first Api design and will be optimized for better performance
 
 ## Pre-Requisites
 In order to use this repository you will need the following:
@@ -15,7 +12,7 @@ In order to use this repository you will need the following:
 ## Built With
 This application has been built with the following tools:
 
-- **Ruby `v2.7.+`**
+- **Ruby on Rails `v2.7.+`**
 - **SQlite3 `v1.6`**
 - **ActiveRecord `v7.0.4`**
 - **Rake `v13.0.6`**
