@@ -12,12 +12,9 @@ In order to use this repository you will need the following:
 ## Built With
 This application has been built with the following tools:
 
-- **Ruby on Rails `v2.7.+`**
+- **Ruby on Rails**
 - **SQlite3 `v1.6`**
-- **ActiveRecord `v7.0.4`**
-- **Rake `v13.0.6`**
-- **rerun `v0.14`**
-- **Sinatra `v3.0.5`**
+
 
 ## Setup
 This project is private, This means I have to add you as a contributor.
@@ -26,7 +23,7 @@ You can setup this repository by following this manual
 
 1. Clone the repository
     
-       git clone git@github.com:Stiflerzak/project_management_app.git
+       git clone git@github.com:Stiflerzak/Pizzas.git
    
 2. Ensure the ruby gems are setup in your machine
     
