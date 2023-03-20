@@ -7,7 +7,7 @@ class RestaurantPizzasController < ApplicationController
     else
       render json: { errors: @restaurant_pizza.errors.full_messages }, status: :unprocessable_entity
     end
-  end
+  end  
 
   private
 

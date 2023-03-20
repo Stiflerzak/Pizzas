@@ -539,3 +539,101 @@ Processing by RestaurantsController#show as */*
 Completed 404 Not Found in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 501)
 
 
+Started GET "/pizzas" for 127.0.0.1 at 2023-03-20 17:16:04 +0300
+Processing by PizzasController#index as */*
+  Parameters: {"name"=>"", "species"=>"", "pizza"=>{"name"=>""}}
+  [1m[36mPizza Load (0.2ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  ↳ app/controllers/pizzas_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 843)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2023-03-20 17:16:56 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"name"=>"", "species"=>"", "restaurant"=>{"name"=>""}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 696)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2023-03-20 17:17:15 +0300
+Processing by RestaurantsController#show as */*
+  Parameters: {"name"=>"", "species"=>"", "id"=>"1", "restaurant"=>{"name"=>""}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:9:in `show'
+  [1m[36mPizza Load (0.1ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" INNER JOIN "restaurant_pizzas" ON "pizzas"."id" = "restaurant_pizzas"."pizza_id" WHERE "restaurant_pizzas"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/restaurants_controller.rb:11:in `show'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 1449)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2023-03-20 17:18:11 +0300
+Processing by PizzasController#index as */*
+  Parameters: {"name"=>"", "species"=>"", "pizza"=>{"name"=>""}}
+  [1m[36mPizza Load (0.2ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  ↳ app/controllers/pizzas_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 808)
+
+
+Started GET "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:18:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/restaurant_pizzas"):
+  
+Started POST "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:19:49 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/restaurant_pizzas"):
+  
+Started GET "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:22:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/restaurant_pizzas"):
+  
+Started GET "/restaurant_pizza" for 127.0.0.1 at 2023-03-20 17:22:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/restaurant_pizza"):
+  
+Started GET "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:22:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/restaurant_pizzas"):
+  
+Started GET "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:23:43 +0300
+Processing by RestaurantPizzasController#index as HTML
+  [1m[36mRestaurantPizza Load (0.2ms)[0m  [1m[34mSELECT "restaurant_pizzas".* FROM "restaurant_pizzas"[0m
+  ↳ app/controllers/restaurant_pizzas_controller.rb:14:in `index'
+  [1m[36mPizza Load (0.2ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/restaurant_pizzas_controller.rb:14:in `index'
+  [1m[36mPizza Load (0.1ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/restaurant_pizzas_controller.rb:14:in `index'
+  [1m[36mPizza Load (0.1ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/restaurant_pizzas_controller.rb:14:in `index'
+  [1m[36mPizza Load (0.1ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/restaurant_pizzas_controller.rb:14:in `index'
+Completed 200 OK in 33ms (Views: 0.3ms | ActiveRecord: 2.6ms | Allocations: 25515)
+
+
+Started POST "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:24:05 +0300
+Processing by RestaurantPizzasController#create as */*
+  Parameters: {"price"=>1, "restaurant_pizza"=>{"price"=>1}}
+Completed 422 Unprocessable Entity in 20ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6063)
+
+
+Started POST "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:24:22 +0300
+Processing by RestaurantPizzasController#create as */*
+  Parameters: {"restaurant_pizza"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 140)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: restaurant_pizza):
+  
+app/controllers/restaurant_pizzas_controller.rb:21:in `restaurant_pizza_params'
+app/controllers/restaurant_pizzas_controller.rb:3:in `create'
+Started POST "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:24:29 +0300
+Processing by RestaurantPizzasController#create as */*
+  Parameters: {"price"=>1, "restaurant_pizza"=>{"price"=>1}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1138)
+
+
+Started POST "/restaurant_pizzas" for 127.0.0.1 at 2023-03-20 17:25:16 +0300
+Processing by RestaurantPizzasController#create as */*
+  Parameters: {"price"=>1, "restaurant_pizza"=>{"price"=>1}}
+Completed 422 Unprocessable Entity in 9ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 7204)
+
+
