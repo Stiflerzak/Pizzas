@@ -50,12 +50,9 @@ This application is a web API that allows users to:
 The following endpoints are ready for use:
 1. `/restaurants` - Presents all restaurant.
 2. `/restaurants/:id` - Presents a specific restaurant by its Id
-3. `/category/:id`- presents a specific category by its id
-4. `/projects` - presents all projects in the database
-5. `/project/:id`- presents a project by id
-6. `/project`- endpoint for adding a project
-7. `/project/:id`- project patch end point
-8. `/project/:id` -  project delete end point
+3. `/restaurants/:id`- This end point i used to delete
+4. `/restaurant_pizzas` - presents all shared attributes between restaurant and pizza
+
 
 ## LICENSE
 This repository is distributed under  GNU GENERAL PUBLIC LICENSE
