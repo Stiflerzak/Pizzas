@@ -46,17 +46,9 @@ This application is a web API that allows users to:
 - Filter project items by date.
 - Delete a project item.
 
-###     PROJECT PROPERTIES
-- `id` => `Integer` - Unique identifier.
-- `title` => `String` - The name of the task.
-- `description` => `String` - A short description about the task.
-- `due` => `Date` - The due date set.
-- `createdAt` => `Date` - The date the task was created.
-- `status` => `Active or inactive` - The status of the task.
-
 
 The following endpoints are ready for use:
-1. `/hello` - Presents a simple welcome message.
+1. `/restaurants` - Presents all restaurant.
 2. `/categories` - Presents all categories in project table
 3. `/category/:id`- presents a specific category by its id
 4. `/projects` - presents all projects in the database
