@@ -514,3 +514,28 @@ Processing by RestaurantsController#show as HTML
 Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 1.8ms | Allocations: 20128)
 
 
+Started GET "/restaurants" for 127.0.0.1 at 2023-03-20 17:13:21 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 4413)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2023-03-20 17:13:38 +0300
+Processing by RestaurantsController#show as */*
+  Parameters: {"name"=>"", "species"=>"", "id"=>"1", "restaurant"=>{"name"=>""}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:9:in `show'
+  [1m[36mPizza Load (0.2ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" INNER JOIN "restaurant_pizzas" ON "pizzas"."id" = "restaurant_pizzas"."pizza_id" WHERE "restaurant_pizzas"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/restaurants_controller.rb:11:in `show'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 8224)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2023-03-20 17:13:53 +0300
+Processing by RestaurantsController#show as */*
+  Parameters: {"name"=>"", "species"=>"", "id"=>"4", "restaurant"=>{"name"=>""}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:9:in `show'
+Completed 404 Not Found in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 501)
+
+
