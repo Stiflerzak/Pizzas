@@ -48,9 +48,16 @@ You can setup this repository locally by following this manual
 
 The following endpoints/routes are ready for use:
 1. ` https://pizzas-17gk.onrender.com/restaurants/restaurants` - Presents all       restaurants.
-2. ` https://pizzas-17gk.onrender.com/restaurants/restaurants/:id` - Presents a json data of a specific restaurant by its Id. It also contains nested pizzas data.
-3. `/restaurants/:id`- This endpoint is used to delete
-4. `/restaurant_pizzas` - presents all shared attributes between restaurant and pizza
+2. ` https://pizzas-17gk.onrender.com/restaurants/restaurants/:id` 
+- Presents a json data of a specific restaurant.
+- It contains nested pizzas data.       
+- It is used to delete a specific record data.
+3. ` https://pizzas-17gk.onrender.com/restaurant_pizzas` - POST into the restaurant_pizzas table.
+
+NB
+                You
+
+4. 
 5. `/pizzas` - Presents all pizzas
 
 Example of use:
