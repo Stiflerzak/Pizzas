@@ -17,11 +17,7 @@ This application has been built with the following tools:
 
 
 ## Setup
-This project is hosted, and can be accessed through this link:
-
-   his application is hosted hence accessible through this link:
-
-        
+This project is hosted, and can be accessed through this link:      
 
 
 - https://pizzas-17gk.onrender.com/
@@ -51,7 +47,7 @@ You can setup this repository by following this manual
 ## Application
  https://pizzas-17gk.onrender.com/
 
- 
+
 The following endpoints are ready for use:
 1. `/restaurants` - Presents all restaurant.
 2. `/restaurants/:id` - Presents a specific restaurant by its Id
