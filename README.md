@@ -22,7 +22,10 @@ This project is hosted, and can be accessed through this link:
    his application is hosted hence accessible through this link:
 
         
-        https://project-management-app-ecru.vercel.app/
+
+
+- https://pizzas-17gk.onrender.com/
+        
 
 
 
