@@ -23,9 +23,9 @@ This project is hosted, and can be accessed through this link:
 - https://pizzas-17gk.onrender.com/
         
 
+or,
 
-
-You can setup this repository by following this manual
+You can setup this repository locally by following this manual
 
 1. Clone the repository
     
