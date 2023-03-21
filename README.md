@@ -58,12 +58,8 @@ NB
 
                 You need to test it out using Postman or Thunderclient
 
-4. 
-5. ` https://pizzas-17gk.onrender.com/pizzas` - Presents all included pizzas
 
-Example of use:
-
- https://pizzas-17gk.onrender.com/restaurants, 
+4. ` https://pizzas-17gk.onrender.com/pizzas` - Presents all included pizzas
 
  
 
