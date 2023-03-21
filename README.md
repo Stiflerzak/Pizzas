@@ -17,7 +17,14 @@ This application has been built with the following tools:
 
 
 ## Setup
-This project is private, This means I have to add you as a contributor.
+This project is hosted, and can be accessed through this link:
+
+   his application is hosted hence accessible through this link:
+
+        
+        https://project-management-app-ecru.vercel.app/
+
+
 
 You can setup this repository by following this manual
 
