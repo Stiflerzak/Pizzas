@@ -55,10 +55,11 @@ The following endpoints/routes are ready for use:
 3. ` https://pizzas-17gk.onrender.com/restaurant_pizzas` - POST into the restaurant_pizzas table.
 
 NB
-                You
+
+                You need to test it out using Postman or Thunderclient
 
 4. 
-5. `/pizzas` - Presents all pizzas
+5. ` https://pizzas-17gk.onrender.com/pizzas` - Presents all included pizzas
 
 Example of use:
 
